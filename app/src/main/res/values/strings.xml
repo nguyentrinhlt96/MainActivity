@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="ads_app_id" translatable="false">ca-app-pub-1945007005893167~8827198623</string>
+
+    <string name="banner_home_footer" translatable="false">ca-app-pub-1945007005893167/6201035287</string>
+    <string name="ad_unit_full" translatable="false">ca-app-pub-1945007005893167/2261790278</string>
+
+    <string name="app_name">Món ăn ngon</string>
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_info">Thông tin</string>
+    <string name="menu_like">Yêu thích</string>
+    <string name="menu_rate">Đánh giá</string>
+    <string name="menu_share">Chia sẻ</string>
+    <string name="search">Tìm kiếm...</string>
+    <string name="search_menu_title">Tìm kiếm</string>
+    <string name="share_with">Chia sẻ với</string>
+    <string name="title_dowload">Tải ứng dụng tại đây :</string>
+    <string name="title_material">Nguyên liệu</string>
+    <string name="title_search">Tra cứu món ăn</string>
+    <string name="title_search_no_data">Bạn chưa có dữ liệu vui lòng ấn biểu tượng tìm kiếm để bắt đầu tìm kiếm</string>
+    <string name="title_similar_dishes">Khác</string>
+    <string name="title_step">Các bước</string>
+    <string name="version">Phiên bản 1.0</string>
+
+    <string name="doublebacktoexit">Ấn lại để thoát</string>
+
+</resources>

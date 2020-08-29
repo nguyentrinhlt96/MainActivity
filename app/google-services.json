@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "879429908713",
+    "firebase_url": "https://mainactivity-d64f5.firebaseio.com",
+    "project_id": "mainactivity-d64f5",
+    "storage_bucket": "mainactivity-d64f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879429908713:android:a757d5e8d420adef251878",
+        "android_client_info": {
+          "package_name": "com.v3.cookbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879429908713-5isr0d0qmccnksovn91pjt9taep24gtp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.v3.cookbook",
+            "certificate_hash": "62269bfd9fedaa54353b05c1e419da66258e7878"
+          }
+        },
+        {
+          "client_id": "879429908713-ksbief6g0f27brvnsnvhp6ci7d68jgmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7XJNAXMzAVO5yvhP8hNmZ7zL_JTWO8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879429908713-ksbief6g0f27brvnsnvhp6ci7d68jgmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
