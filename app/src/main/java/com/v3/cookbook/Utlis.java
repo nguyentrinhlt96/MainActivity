@@ -14,7 +14,8 @@ public class Utlis {
     public static final int FAVAURITE = 2;
     public static  int currentState = 0 ;
     public static final String TEST_DEVICE ="56E989955BCD54FF1A315C840C9DB87";
-    public static final String APP_ID = "202366405";
+   // public static final String APP_ID = "202366405";
+   public static final String APP_ID = "demo";
     private static final Hashtable<String, Typeface> CACHE = new Hashtable<>();
 
     public static void hideKeyboard(View focusingView, Activity context) {

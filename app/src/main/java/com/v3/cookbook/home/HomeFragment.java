@@ -70,6 +70,9 @@ public class HomeFragment extends ViewFragment<ViewContract.Presenter> implement
     @BindView(R.id.adView_container)
     Banner adView;
 
+    private static volatile HomeFragment sInstance;
+
+
     private int preState = -1;
 
     public int getLayoutId() {
@@ -77,7 +80,15 @@ public class HomeFragment extends ViewFragment<ViewContract.Presenter> implement
         return R.layout.fragment_home;
     }
 
+    public static HomeFragment getInstance() {
+        if (sInstance == null) {
+            sInstance = new HomeFragment();
+        }
+        return sInstance;
+    }
+
     public void initLayout() {
+        sInstance = this;
         EventBus.getDefault().register(this);
         this.mSqlite = new DishSqlite(getContext());
         getCategory();

@@ -10,5 +10,4 @@ public class CheckInternet {
         NetworkInfo info = cm.getActiveNetworkInfo();
         return (info != null);
     }
-
 }

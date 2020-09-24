@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 apply plugin: 'io.fabric'
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    compileSdkVersion 30
+    buildToolsVersion "30.0.1"
     defaultConfig {
         applicationId "com.v3.cookbook"
         minSdkVersion 19
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 10
         versionName "10.0"
         multiDexEnabled true
@@ -52,6 +52,9 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.navigation:navigation-fragment:2.3.0'
+    implementation 'androidx.navigation:navigation-ui:2.3.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
@@ -68,8 +71,6 @@ dependencies {
     implementation 'com.android.support:design:28.0.0'
     implementation 'org.greenrobot:eventbus:3.1.1'
     implementation 'com.startapp:inapp-sdk:4.4.1'
-
-
     //Ads facebook
 //    implementation 'com.google.android.gms:play-services-ads:19.0.0'
     //Ads FAN
